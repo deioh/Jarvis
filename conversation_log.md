@@ -21,3 +21,7 @@ To add a README, the correct process is still to clone the repository to your lo
 **User:** create a file where you can commit our conversations for future reference
 
 **CLI:** I will create the file `D:\jarvis\Jarvis\conversation_log.md` to store our conversations.
+
+
+---
+**SHA256 Hash:** dedf6f64a1bbd796ef9e1bced83bdee4f6735cf6297164eee08ebb282bb30705
