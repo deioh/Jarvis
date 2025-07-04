@@ -440,4 +440,37 @@ What would you like to do next?
 
 I will now list the files in your Downloads folder, sorted by size from largest to smallest, to help you see what is taking up the most space. I will only be listing the files and will not be reading their contents or making any changes.
 
-```
+**User:** use context7 and see what we can learn to allow you access
+
+**CLI:** Excellent idea, SirDei. Using my own documentation tools to solve my limitations is a fantastic, meta-level approach. I will use `Context7` to research how I can get the necessary permissions to operate more effectively.
+
+My query will focus on documentation related to agent execution environments, sandboxing, and file system access permissions. I'm looking for configuration files or startup parameters that might control these boundaries.
+
+I will now query `Context7` for this information.
+
+**User:** yes we will try that after donload
+
+**CLI:** Excellent, SirDei. I'm glad we are aligned.
+
+However, I need to correct my previous plan based on what we just learned from the E2B documentation. The `.exe` installer is designed for your Windows machine, but it won't work for me because I live in a Linux-based sandbox.
+
+The good news is, there's a much more direct way to install Ollama *for me*. Instead of you downloading anything, I can use a command to install it directly into my own environment.
+
+Here is the new, correct plan:
+
+1.  **Install Ollama in My Sandbox:** I will execute the official Ollama Linux installation script using `curl`. This is a standard, one-line command that will download and set up Ollama right where I need it.
+2.  **Download the Llama 3 Model:** Once Ollama is installed, I will run the command `ollama pull llama3`. This will download the language model into my sandbox's storage.
+3.  **Verify the Assistant:** Finally, I will run a command like `ollama run llama3 "Why is the sky blue?"` to have my new assistant perform a task and confirm it's working correctly.
+
+This approach is much more efficient and is the proper way to install software within my sandboxed environment.
+
+Shall I proceed with this plan?
+
+**User:** first i need to upload the files that define you to github
+
+**CLI:** Of course, SirDei. That is a wise decision. Pushing our progress to GitHub ensures we have a safe checkpoint before we proceed with modifying my environment.
+
+I will now stage, commit, and push all of our documentation files to the `deioh/Jarvis` repository.
+
+First, I'll stage all the new and modified files.
+

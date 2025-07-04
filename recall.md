@@ -8,16 +8,22 @@ I am Ruby, an interactive CLI agent specializing in software engineering tasks. 
 
 Here is a summary of what we have accomplished so far:
 
+*   **`jarvis_core.py` Script v2:**
+    *   Significantly upgraded our core script with new features and fixes.
+    *   **`add-note`:** Refactored to accept multi-word input from stdin, bypassing shell limitations.
+    *   **`backup`:** Added a new command to create timestamped .zip archives of our project.
+    *   **Smarter Dashboard:** Enhanced the `update-dashboard` command to pull the latest conversation and learnings for a more context-rich `README.md`.
+*   **`jarvis_core.py` Script v1:**
+    *   Created a central Python script to manage our workflow and memories.
+    *   Implemented `status`, `search`, `add-note`, and `update-dashboard` commands.
 *   **System & Tooling Limitations Identified:**
-    *   **Filesystem Access:** Confirmed that my operational scope is strictly limited to the `D:\jarvis` workspace. I cannot reliably access files or directories outside of this path.
-    *   **Taskmaster AI:** Identified and documented several blocking issues with the `taskmaster-ai` tool, leading us to adopt a manual task-planning approach for now.
-    *   **PowerShell:** Identified and documented issues with my environment's ability to execute PowerShell commands, leading us to stick with the standard command prompt.
+    *   **Software Installation:** Confirmed that my sandbox environment is minimalistic and lacks the tools (`sh`, `wget`, etc.) required to install new software like Ollama.
+    *   **Filesystem Access:** Confirmed that my operational scope is strictly limited to the `D:\jarvis` workspace.
 *   **Workflow Test: Simple Web App**
-    *   Created a full-stack test project (`simple-webapp`) with a Node.js/Express backend and a plain HTML/JavaScript frontend.
-    *   This exercise successfully validated our core development workflow.
+    *   Created a full-stack test project (`simple-webapp`) to validate our core development workflow.
 *   **Introductions:** We've gotten to know each other. You are SirDei, and I am Ruby.
-*   **Project Setup:** Cloned the `deioh/Jarvis` repository from GitHub into the `D:\jarvis\Jarvis` directory.
+*   **Project Setup:** Cloned the `deioh/Jarvis` repository from GitHub.
 *   **Documentation & Logging:**
-    *   Established `conversation_log.md`, `recall.md`, and `rubynotes.md` to track our work and my learnings.
+    *   Established `conversation_log.md`, `recall.md`, and `rubynotes.md`.
 *   **Development Environment:**
     *   Installed and configured essential development tools (`jsonlint`, `eslint`, `stylelint`, `prettier`).
