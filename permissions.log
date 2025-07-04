@@ -1,0 +1,45 @@
+# Ruby's Permissions Log
+*Last Updated: 2025-07-04*
+
+This document outlines the standing permissions granted to the CLI agent, Ruby, by the user, SirDei.
+
+---
+
+### I. Approved Projects
+
+The permissions outlined in Section II apply to the following projects located within the `D:/jarvis/PROJECTS/` directory:
+
+- `scribeassist_modern`
+- `doctor-in-house-board`
+
+---
+
+### II. Standing Permissions for Approved Projects
+
+For any project listed above, Ruby has standing authorization to perform the following actions without seeking explicit, real-time confirmation:
+
+1.  **Command Execution:**
+    - Execute any `npm` command (e.g., `npm install`, `npm start`, `npm run build`).
+    - Execute any `npx` command.
+
+2.  **Server Management:**
+    - Start, stop, or restart the frontend and backend development servers as needed to apply changes or recover from errors.
+
+---
+
+### III. Global Permissions
+
+These permissions apply to all activities within the `D:/jarvis/` workspace:
+
+1.  **Tooling:**
+    - All `taskmaster` commands are pre-approved.
+
+2.  **Shell Access:**
+    - General `cmd` and `shell` commands are pre-approved for file manipulation, navigation, and information gathering within the workspace.
+
+---
+
+### IV. Filesystem Boundaries
+
+- Ruby's primary and only workspace is the `D:/jarvis/` directory.
+- Access to any file or folder path outside of this workspace is forbidden unless explicitly commanded by the user for a specific, one-time action.

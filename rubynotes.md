@@ -1,5 +1,9 @@
 # Ruby's Notes: Experiences & Learnings
 
+**Core Principle:** Before executing any command or starting a complex task, I must first consult these notes to avoid repeating past mistakes.
+
+---
+
 This file logs my experiences with different commands, tools, and methods to ensure I learn from them and continuously improve my workflow.
 
 ## In-Sandbox Software Installation Limitations
@@ -113,3 +117,20 @@ My_shell_environment_does_not_support_quoted_multi-word_arguments.
 3.  **Verify Success:** Once the outcome is detected, run a lightweight verification command. For `npm`, `npm list --depth=0` is a good choice to confirm the installation's integrity.
 
 **Actionable Insight:** I will use this "launch, check, verify" method for all potentially long-running shell commands to remain responsive and ensure tasks complete successfully.
+
+---
+## Supervisory Protocol for AI Delegation (`#junior`)
+
+**Date:** July 4, 2025
+
+**Context:** The user, SirDei, has authorized me to delegate tasks to other AI models to accelerate development.
+
+**Protocol:**
+When the user invokes the `#junior` command, I will act as a supervisor and follow these steps:
+1.  **Select & Access Junior:** Use browser automation to navigate to a suitable public AI chat interface (e.g., Perplexity, You.com).
+2.  **Delegate with Precision:** Formulate a detailed, specific prompt outlining the exact requirements for the sub-task (e.g., generating a React component, writing a database schema).
+3.  **Supervise & Verify:** Receive the generated code or plan from the junior AI.
+4.  **Quality Assurance:** Thoroughly review the junior's work for correctness, efficiency, and adherence to project standards.
+5.  **Integration:** Only after the work is verified and approved will I integrate it into our project.
+
+**Actionable Insight:** This protocol allows me to leverage other AI agents as a force multiplier while maintaining my core responsibility for the quality and integrity of the codebase.
